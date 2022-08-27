@@ -1,0 +1,12 @@
+import React from "react";
+
+const Header = () => {
+  return (
+    <div className="flex-head header">
+      <h1>Img-Finder</h1>
+      <h4>About </h4>
+    </div>
+  );
+};
+
+export default Header;
