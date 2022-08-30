@@ -108,3 +108,11 @@ button:hover {
 h1 {
   font-family: "Kaushan Script", cursive;
 }
+
+.message {
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  margin: 0px;
+  height: 280px;
+}

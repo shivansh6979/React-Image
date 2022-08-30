@@ -32,7 +32,9 @@ function App() {
       <Header />
       <ImageSearch searchText={(text) => setTerm(text)} />
 
-      {!loading && images.length === 0 && <h1>No Images Found</h1>}
+      {!loading && images.hits.length === 0 && (
+        <h1 className="message">No Images Found</h1>
+      )}
 
       <div className="flex main">
         {images &&
